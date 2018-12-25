@@ -1,0 +1,108 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+  letter-spacing: 2px;
+}
+* h2 {
+  font-size: 36px;
+}
+* h4 {
+  margin-left: 5px;
+  font-size: 22px;
+}
+* p {
+  margin-left: 15px;
+  font-size: 16px;
+}
+
+.navbar.navbar-default.navbar-fixed-top.navbar-top {
+  background-color: white;
+}
+.navbar.navbar-default.navbar-fixed-top.navbar-top a {
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  transition: 0.5s;
+}
+.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
+  color: #5097ce;
+}
+
+header.jumbotron {
+  background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/qEue9C6/game-slot-machine-reels-word-letters-casino-3-d-animation_baqah6qye_thumbnail-full11.png);
+  background-size: cover;
+  background-position: 100% 100%;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+  padding-bottom: 200px;
+}
+header.jumbotron h2 {
+  margin-top: 60px;
+  text-align: center;
+}
+
+#s_1 .col-sm-5 {
+  background-image: url(https://i.imgur.com/BNUUbmq.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 420px;
+}
+#s_1 .col-sm-7 {
+  padding-left: 60px;
+}
+
+#s_2 .img {
+  background-image: url(https://i.imgur.com/onNO7EN.jpg);
+  background-color: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+}
+#s_2 .text {
+  margin-top: -55px;
+  margin-bottom: 20px;
+}
+
+#s_3 {
+  background: linear-gradient(to right, rgba(0, 131, 255, 0.25), rgba(255, 63, 63, 0.25));
+}
+#s_3 .img {
+  height: 440px;
+  background-image: url(https://i.imgur.com/NRNUgOs.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  mix-blend-mode: multiply;
+}
+#s_3 h2 {
+  margin-top: 0px;
+}
+
+#s_4 {
+  height: 450px;
+  background: linear-gradient(to right, black -300%, white 60%);
+}
+#s_4 .img {
+  background-image: url(https://i.imgur.com/oW2L7um.jpg);
+  height: 280px;
+  background-size: cover;
+}
+
+#s_5 p {
+  letter-spacing: 6px;
+}
+#s_5 .img {
+  background-image: url(https://i.imgur.com/m58raoy.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 550px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+footer.jumbotron {
+  padding-top: 450px;
+  background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/qEue9C6/game-slot-machine-reels-word-letters-casino-3-d-animation_baqah6qye_thumbnail-full11.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
